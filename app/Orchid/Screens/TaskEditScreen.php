@@ -51,7 +51,7 @@ class TaskEditScreen extends Screen
 
                 Input::make('task.description')
                     ->title('Описание')
-                    ->placeholder('Введите описание задачи'),
+                    ->placeholder('Введите описание'),
 
                 Switcher::make('task.completed')
                     ->sendTrueOrFalse()
